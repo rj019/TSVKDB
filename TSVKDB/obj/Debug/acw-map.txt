@@ -1,0 +1,8 @@
+TSVKDB.MainActivity, TSVKDB;md5ca7bebd2f2d49239cfac4760981c3d51.MainActivity
+TSVKDB.MainActivity, TSVKDB, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5ca7bebd2f2d49239cfac4760981c3d51.MainActivity
+TSVKDB.MainActivity;md5ca7bebd2f2d49239cfac4760981c3d51.MainActivity
+tsvkdb.MainActivity;md5ca7bebd2f2d49239cfac4760981c3d51.MainActivity
+TSVKDB.TeamsActivity, TSVKDB;md5ca7bebd2f2d49239cfac4760981c3d51.TeamsActivity
+TSVKDB.TeamsActivity, TSVKDB, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5ca7bebd2f2d49239cfac4760981c3d51.TeamsActivity
+TSVKDB.TeamsActivity;md5ca7bebd2f2d49239cfac4760981c3d51.TeamsActivity
+tsvkdb.TeamsActivity;md5ca7bebd2f2d49239cfac4760981c3d51.TeamsActivity
