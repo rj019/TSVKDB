@@ -14,9 +14,9 @@ namespace TSVKDB
 
         private Button btnlogin;
         private TextView txtSysLog;
-        private static EditText txtLogin;
-        private static EditText txtPassword;
-        private static Button btnRegistration;
+        private EditText txtLogin;
+        private EditText txtPassword;
+        private Button btnRegistration;
         private dbconnect dbconnect = new dbconnect();
 
         protected override void OnCreate(Bundle bundle)
@@ -62,7 +62,6 @@ namespace TSVKDB
                     var activity2 = new Intent(this, typeof(TeamsActivity));
                     activity2.PutExtra("user", txtLogin.Text);
                     StartActivity(activity2);
-
 
                 }
                 else

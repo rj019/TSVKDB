@@ -20,7 +20,7 @@ namespace TSVKDB
         //Attributes
 
         private DataTable table = new DataTable();
-        public MySqlConnection connection;
+        private MySqlConnection connection;
         private MySqlDataAdapter adapter;
 
 
@@ -37,11 +37,11 @@ namespace TSVKDB
         {
             try
             {
-                connection = new MySqlConnection("homenas.dnshome.de;Port=3306;database=teamdb;User ID=teamdb;Password=admin;Charset=utf8");
+                connection = new MySqlConnection("server=homenas.dnshome.de;Port=3306;database=teamdb;User ID=teamdb;Password=admin;Charset=utf8");
 
                 if (connection.State == System.Data.ConnectionState.Closed)
                 {
-                   // connection.Open();
+                    connection.Open();
                     return true;
                 }
                 else
@@ -60,7 +60,7 @@ namespace TSVKDB
         // User Login
         public bool logInUser(String name, String password)
         {
-           String query = "select login, pass from benutzer where login = '" + name + "' and pass =  md5('" + password + "')";
+           String query = "select login, pass from benutzer where login = '" + name + "' and pass = '" + password + "'";
            adapter = new MySqlDataAdapter(query, connection);
            adapter.Fill(table);
 
@@ -103,7 +103,7 @@ namespace TSVKDB
         public void addUser(String Username, String Password)
         {
             connect();
-            String query = "insert into benutzer (login, pass) Values('" + Username + "',md5('" + Password +"'))";
+            String query = "insert into benutzer (login, pass) Values('" + Username + "','" + Password +"')";
             MySqlCommand sqlCmd = new MySqlCommand(query, connection);
             sqlCmd.ExecuteNonQuery();
         }
