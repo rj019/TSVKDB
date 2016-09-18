@@ -47,4 +47,3 @@ C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\an
 C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\android\assets\TSVKDB.dll.mdb
 C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\TSVKDB.csprojResolveAssemblyReference.cache
 C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\TSVKDB.dll.mdb
-C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\bin\Debug\TSVKDB.dll.mdb

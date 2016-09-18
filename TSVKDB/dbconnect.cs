@@ -37,7 +37,7 @@ namespace TSVKDB
         {
             try
             {
-                connection = new MySqlConnection("server=homenas.dnshome.de;Port=3306;database=teamdb;User ID=teamdb;Password=admin;Charset=utf8");
+                connection = new MySqlConnection("homenas.dnshome.de;Port=3306;database=teamdb;User ID=teamdb;Password=admin;Charset=utf8");
 
                 if (connection.State == System.Data.ConnectionState.Closed)
                 {
