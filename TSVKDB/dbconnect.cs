@@ -60,10 +60,12 @@ namespace TSVKDB
         // User Login
         public bool logInUser(String name, String password)
         {
+           table = new DataTable();
            String query = "select login, pass from benutzer where login = '" + name + "' and pass = '" + password + "'";
            adapter = new MySqlDataAdapter(query, connection);
            adapter.Fill(table);
 
+//TODO -  VERBESSERN!!!!! Keine Tabelle Count sonder User abfrage
             if (table.Rows.Count <= 0)
             {
                 return false;

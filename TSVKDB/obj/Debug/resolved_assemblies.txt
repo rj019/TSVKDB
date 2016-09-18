@@ -19,9 +19,9 @@ C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\an
 C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\android\assets\System.Runtime.InteropServices.dll
 C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\android\assets\System.Runtime.Extensions.dll
 C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\android\assets\System.Reflection.Extensions.dll
+C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\android\assets\System.Net.Http.dll
 C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\android\assets\System.Runtime.Serialization.dll
 C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\android\assets\System.ServiceModel.Internals.dll
-C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\android\assets\System.Net.Http.dll
 C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\android\assets\System.Numerics.dll
 C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\android\assets\Mono.Data.Tds.dll
 C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\android\assets\System.Transactions.dll
