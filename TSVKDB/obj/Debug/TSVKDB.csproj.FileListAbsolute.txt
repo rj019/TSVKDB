@@ -6,13 +6,14 @@ C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\bin\Debug\My
 C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\TSVKDB.dll
 C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\TSVKDB.pdb
 C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\android\bin\TSVKDB.TSVKDB.apk
+C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\res\layout\teams.xml
+C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\res\layout\registration.xml
 C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\res\layout\main.xml
 C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\res\values\strings.xml
 C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\res\drawable\icon.png
 C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\R.cs.flag
 C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\uploadflags.txt
 C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\bin\Debug\TSVKDB.dll.mdb
-C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\res\layout\teams.xml
 C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\bin\Debug\Java.Interop.dll.mdb
 C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\bin\Debug\Mono.Android.dll.mdb
 C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\bin\Debug\Mono.Data.Tds.dll.mdb
@@ -44,5 +45,6 @@ C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\an
 C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
 C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\android\assets\TSVKDB.dll.mdb
+C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\TSVKDB.csprojResolveAssemblyReference.cache
 C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\TSVKDB.dll.mdb
 C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\bin\Debug\TSVKDB.dll.mdb

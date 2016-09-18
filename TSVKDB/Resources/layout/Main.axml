@@ -27,7 +27,7 @@
         android:text="Registrieren"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnRegistrieren" />
+        android:id="@+id/btnRegistration" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

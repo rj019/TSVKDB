@@ -20,7 +20,7 @@ namespace TSVKDB
         //Attributes
 
         private DataTable table = new DataTable();
-        private MySqlConnection connection;
+        public MySqlConnection connection;
         private MySqlDataAdapter adapter;
 
 
@@ -37,11 +37,11 @@ namespace TSVKDB
         {
             try
             {
-                connection = new MySqlConnection("++++;Port=3306;database=teamdb;User ID=++++++;Password=+++++;Charset=utf8");
+                connection = new MySqlConnection("server=homenas.dnshome.de;Port=3306;database=teamdb;User ID=teamdb;Password=admin;Charset=utf8");
 
                 if (connection.State == System.Data.ConnectionState.Closed)
                 {
-                    connection.Open();
+                   // connection.Open();
                     return true;
                 }
                 else
@@ -51,16 +51,18 @@ namespace TSVKDB
             }
             catch(Exception e)
             {
+
                 return false;
+                
             }
         }
 
         // User Login
         public bool logInUser(String name, String password)
         {
-           String query = "select login, pass from benutzer where login = '" + name + "' and pass =  '" + password + "'";
+           String query = "select login, pass from benutzer where login = '" + name + "' and pass =  md5('" + password + "')";
            adapter = new MySqlDataAdapter(query, connection);
-            adapter.Fill(table);
+           adapter.Fill(table);
 
             if (table.Rows.Count <= 0)
             {
@@ -68,14 +70,49 @@ namespace TSVKDB
             }
             else
             {
-                return true;
+                return true;  // Bleibt auf true! Muss aber wieder zu false werden sonst dauerlogin möglich ohne Datenbankabfrage
             }
+
         }
 
-        // Suche nach zugehörigen Teams
-        public bool userTeam(String ID)
+        // Zuordnung Benutzer mit Team(s)
+        public String[] userTeam(String user)
         {
-            String query = "select * from teams where ID='"+ ID +"'";
+            connect();
+            table = new DataTable();
+            String query = "select Verein from teams t INNER JOIN benutzerteam bt on t.ID = bt.VereinID and BenutzerID ='" + user +"'";
+
+            adapter = new MySqlDataAdapter(query, connection);
+            adapter.Fill(table);
+            String[] sTeams = new String[table.Rows.Count];
+
+            int i = 0;
+
+            foreach (DataRow tRow in table.Rows)
+            {
+                
+                sTeams[i] = tRow.ItemArray[0].ToString();
+                i++;
+                
+            }
+            return sTeams;
+        }
+
+
+        // Neuen User Registrieren
+        public void addUser(String Username, String Password)
+        {
+            connect();
+            String query = "insert into benutzer (login, pass) Values('" + Username + "',md5('" + Password +"'))";
+            MySqlCommand sqlCmd = new MySqlCommand(query, connection);
+            sqlCmd.ExecuteNonQuery();
+        }
+
+        // Abfrage ob User bereits existiert.
+        public bool userExists(String Username)
+        {
+            connect();
+            String query = "select login from benutzer where login='" + Username + "'";
             adapter = new MySqlDataAdapter(query, connection);
             adapter.Fill(table);
 
@@ -87,7 +124,10 @@ namespace TSVKDB
             {
                 return true;
             }
+
         }
+
+
 
     }
 }
