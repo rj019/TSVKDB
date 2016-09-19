@@ -3,6 +3,7 @@ C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\bin\Debug\TS
 C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\bin\Debug\TSVKDB.TSVKDB.apk
 C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\bin\Debug\TSVKDB.TSVKDB-Signed.apk
 C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\bin\Debug\MySql.Data.CF.dll
+C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\TSVKDB.csprojResolveAssemblyReference.cache
 C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\TSVKDB.dll
 C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\TSVKDB.pdb
 C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\android\bin\TSVKDB.TSVKDB.apk
@@ -45,6 +46,5 @@ C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\an
 C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
 C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\android\assets\TSVKDB.dll.mdb
-C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\TSVKDB.csprojResolveAssemblyReference.cache
 C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\obj\Debug\TSVKDB.dll.mdb
 C:\Users\robert\documents\visual studio 2015\Projects\TSVKDB\TSVKDB\bin\Debug\TSVKDB.dll.mdb

@@ -55,7 +55,7 @@ namespace TSVKDB
                if (!(dbconnect.userExists(usrName.Text)))
                 {
                             // Prüfen auf Passwort eingabe
-                            if (pswText.Text.Equals(null) | pswRepText.Equals(null))
+                            if (pswText.Text.Equals("") | pswRepText.Equals(""))
                             {
                                 txtSysLog.Text = "Bitte Passwort eingeben.";
                             }
@@ -72,7 +72,7 @@ namespace TSVKDB
                 }
                else
                 {
-                    txtSysLog.Text = "Benutzername bereits vergeben";  // KOMME NICHT AUS DIESEM ZWEIG RAUS?!?!?!?!?!?!?
+                    txtSysLog.Text = "Benutzername bereits vergeben";
                 }
 
         }

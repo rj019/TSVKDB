@@ -65,7 +65,7 @@ namespace TSVKDB
            adapter = new MySqlDataAdapter(query, connection);
            adapter.Fill(table);
 
-//TODO -  VERBESSERN!!!!! Keine Tabelle Count sonder User abfrage
+        //TODO -  VERBESSERN!!!!! Keine Tabelle Count sonder User abfrage
             if (table.Rows.Count <= 0)
             {
                 return false;
@@ -113,6 +113,7 @@ namespace TSVKDB
         // Abfrage ob User bereits existiert.
         public bool userExists(String Username)
         {
+            table = new DataTable();
             connect();
             String query = "select login from benutzer where login='" + Username + "'";
             adapter = new MySqlDataAdapter(query, connection);
